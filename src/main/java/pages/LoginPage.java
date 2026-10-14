@@ -6,19 +6,19 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage {
 
 	private WebDriver driver;
-	private By usernameTextBox = By.name("username");
-	private By passwordTextBox = By.name("password");
-	private By loginButton = By.xpath("//*[@id='app']/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button");
+	private By usernameTextBox = By.id("username");
+	private By passwordTextBox = By.id("password");
+	private By loginButton = By.id("submit");
 	
 	public LoginPage (WebDriver driver) {
 		this.driver = driver ;
 		
 	}
-	public void entreUsername(String username) {
+	public void enterUsername(String username) {
 		driver.findElement(usernameTextBox).sendKeys(username);
 		
 	}
-	public void entrePassword(String password) {
+	public void enterPassword(String password) {
 		driver.findElement(passwordTextBox).sendKeys(password);
 		
 	}

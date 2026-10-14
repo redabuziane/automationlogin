@@ -14,13 +14,13 @@ public class BaseTest {
 		public void setUp () {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		driver.get("https://practicetestautomation.com/practice-test-login/");
 		
 	}
 	@AfterMethod
 		public void tearDown() {
 	if (driver != null ) {
-		driver.quit();
+		 //driver.quit();
 		
 	}
 }
