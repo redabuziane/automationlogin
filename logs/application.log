@@ -1,0 +1,24 @@
+2026-10-15 18:18:51 [main] INFO  log - Starting WebDriver
+2026-10-15 18:18:57 [main] INFO  log - Navigation to demowebsite
+2026-10-15 18:19:03 [main] INFO  log - Starting login test 
+2026-10-15 18:19:03 [main] INFO  log - Adding credentials
+2026-10-15 18:19:04 [main] INFO  log - Clicking login button
+2026-10-15 18:19:06 [main] INFO  log - closing Browser
+2026-10-15 18:20:59 [main] INFO  log - Starting WebDriver
+2026-10-15 18:21:00 [main] INFO  log - Navigation to demowebsite
+2026-10-15 18:21:05 [main] INFO  log - Starting login test 
+2026-10-15 18:21:05 [main] INFO  log - Adding credentials
+2026-10-15 18:21:06 [main] INFO  log - Clicking login button
+2026-10-15 18:21:07 [main] INFO  log - closing Browser
+2026-10-15 22:55:07 [main] INFO  log - Starting WebDriver
+2026-10-15 22:55:20 [main] INFO  log - Navigation to demowebsite
+2026-10-15 22:55:23 [main] INFO  log - Starting login test 
+2026-10-15 22:55:23 [main] INFO  log - Adding credentials
+2026-10-15 22:55:23 [main] INFO  log - Clicking login button
+2026-10-15 22:55:24 [main] INFO  log - closing Browser
+2026-10-15 23:23:50 [main] INFO  log - Starting WebDriver
+2026-10-15 23:23:52 [main] INFO  log - Navigation to demowebsite
+2026-10-15 23:24:01 [main] INFO  log - Starting login test 
+2026-10-15 23:24:01 [main] INFO  log - Adding credentials
+2026-10-15 23:24:01 [main] INFO  log - Clicking login button
+2026-10-15 23:24:02 [main] INFO  log - closing Browser
