@@ -6,8 +6,10 @@
       <class name="test.LoginTest">
         <methods>
           <include name="setUp"/>
+          <include name="teardownReport"/>
           <include name="tearDown"/>
-          <include name="testValidLogin"/>
+          <include name="setupReport"/>
+          <include name="testLoginwithInvalidCredentials"/>
         </methods>
       </class> <!-- test.LoginTest -->
     </classes>
