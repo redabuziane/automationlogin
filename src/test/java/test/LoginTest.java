@@ -1,30 +1,48 @@
 package test;
 
+import java.io.IOException;
+
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
 
 import base.BaseTest;
 import pages.LoginPage;
+import utils.ExcelUtils;
 import utils.ExtentReportManager;
 import utils.log;
 
 public class LoginTest  extends BaseTest{
 	
+	@DataProvider (name = "LoginData")
 	
-	@Test  
+	public Object [][] getLoginData () throws IOException {
+		String filePath = System.getProperty("user.dir") + "/testdata/TestData.xlsx";
+		ExcelUtils.loeadExcel(filePath, "sheet1");
+		int rowCount = ExcelUtils.getRowCount();
+		Object [][] data = new Object [rowCount-1][2];
+		for(int i = 1 ; i <rowCount ; i++) {
+			data [i-1][0] = ExcelUtils.getCellData(i, 0);
+			data[i-1] [1] = ExcelUtils.getCellData(i, 1);
+		}
+		ExcelUtils.closeExcel();
+		return data;
+	}
 	
-	public void testValidLogin () {
+	@Test  (dataProvider = "LoginData")
+	
+	public void testValidLogin (String username , String password) {
 		log.info("Starting login test ");
-		test = ExtentReportManager.createTest("LoginTest");
+		test = ExtentReportManager.createTest("LoginTest" + username);
 		test.info("navigation to url");
 		LoginPage loginPage = new LoginPage (driver);
 		
 		log.info("Adding credentials");
 		test.info("Adding credentials");
-		loginPage.enterUsername("student");
-		loginPage.enterPassword("Password123");
+		loginPage.enterUsername(username);
+		loginPage.enterPassword(password);
 		test.info("Cliking on login button");
 		
 		loginPage.clickLogin();
