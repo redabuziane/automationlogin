@@ -245,3 +245,38 @@
 2026-10-20 17:08:32 [main] INFO  log - Clicking login button
 2026-10-20 17:08:33 [main] INFO  log - Verfying page title
 2026-10-20 17:08:33 [main] INFO  log - closing Browser
+2026-10-20 17:15:30 [main] INFO  log - Starting WebDriver
+2026-10-20 17:15:32 [main] INFO  log - Navigation to demowebsite
+2026-10-20 17:15:36 [main] INFO  log - Starting login test 
+2026-10-20 17:15:36 [main] INFO  log - Adding credentials
+2026-10-20 17:15:36 [main] INFO  log - Clicking login button
+2026-10-20 17:15:36 [main] INFO  log - Verfying page title
+2026-10-20 17:15:36 [main] INFO  log - closing Browser
+2026-10-20 17:15:37 [main] INFO  log - Starting WebDriver
+2026-10-20 17:15:38 [main] INFO  log - Navigation to demowebsite
+2026-10-20 17:15:40 [main] INFO  log - Starting login test 
+2026-10-20 17:15:40 [main] INFO  log - Adding credentials
+2026-10-20 17:15:40 [main] INFO  log - Clicking login button
+2026-10-20 17:15:41 [main] INFO  log - Verfying page title
+2026-10-20 17:15:41 [main] INFO  log - closing Browser
+2026-10-20 17:15:41 [main] INFO  log - Starting WebDriver
+2026-10-20 17:15:42 [main] INFO  log - Navigation to demowebsite
+2026-10-20 17:15:45 [main] INFO  log - Starting login test 
+2026-10-20 17:15:45 [main] INFO  log - Adding credentials
+2026-10-20 17:15:46 [main] INFO  log - Clicking login button
+2026-10-20 17:15:46 [main] INFO  log - Verfying page title
+2026-10-20 17:15:46 [main] INFO  log - closing Browser
+2026-10-20 17:15:46 [main] INFO  log - Starting WebDriver
+2026-10-20 17:15:47 [main] INFO  log - Navigation to demowebsite
+2026-10-20 17:15:49 [main] INFO  log - Starting login test 
+2026-10-20 17:15:49 [main] INFO  log - Adding credentials
+2026-10-20 17:15:50 [main] INFO  log - Clicking login button
+2026-10-20 17:15:50 [main] INFO  log - Verfying page title
+2026-10-20 17:15:50 [main] INFO  log - closing Browser
+2026-10-20 17:15:50 [main] INFO  log - Starting WebDriver
+2026-10-20 17:15:51 [main] INFO  log - Navigation to demowebsite
+2026-10-20 17:15:54 [main] INFO  log - Starting login test 
+2026-10-20 17:15:54 [main] INFO  log - Adding credentials
+2026-10-20 17:15:54 [main] INFO  log - Clicking login button
+2026-10-20 17:15:56 [main] INFO  log - Verfying page title
+2026-10-20 17:15:56 [main] INFO  log - closing Browser
