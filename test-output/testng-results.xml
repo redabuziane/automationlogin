@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="1" failed="4" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-20T17:15:30 GMT" name="Default suite" finished-at="2026-10-20T17:15:56 GMT" duration-ms="26157">
+  <suite started-at="2026-10-22T18:52:29 GMT" name="loginSuite" finished-at="2026-10-22T18:52:38 GMT" duration-ms="8563">
     <groups>
     </groups>
-    <test started-at="2026-10-20T17:15:30 GMT" name="Default test" finished-at="2026-10-20T17:15:56 GMT" duration-ms="26157">
+    <test started-at="2026-10-22T18:52:29 GMT" name="loginTest" finished-at="2026-10-22T18:52:38 GMT" duration-ms="8563">
       <class name="test.LoginTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:29 GMT" name="setupReport" finished-at="2026-10-20T17:15:30 GMT" duration-ms="337" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:test.LoginTest@279fedbd]" started-at="2026-10-22T18:52:29 GMT" name="setupReport" finished-at="2026-10-22T18:52:29 GMT" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:30 GMT" name="setUp" finished-at="2026-10-20T17:15:36 GMT" duration-ms="5978" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@279fedbd]" started-at="2026-10-22T18:52:29 GMT" name="setUp" finished-at="2026-10-22T18:52:34 GMT" duration-ms="4378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoginwithInvalidCredentials()[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:36 GMT" name="testLoginwithInvalidCredentials" finished-at="2026-10-20T17:15:36 GMT" duration-ms="359" status="FAIL">
+        <test-method signature="testLoginwithInvalidCredentials()[pri:0, instance:test.LoginTest@279fedbd]" started-at="2026-10-22T18:52:34 GMT" name="testLoginwithInvalidCredentials" finished-at="2026-10-22T18:52:34 GMT" duration-ms="440" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Logged In Successfully | Practice Test Automation] but found [Test Login | Practice Test Automation]]]>
@@ -28,7 +28,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at test.LoginTest.testLoginwithInvalidCredentials(LoginTest.java:78)
+at test.LoginTest.testLoginwithInvalidCredentials(LoginTest.java:92)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -61,26 +61,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginwithInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:36 GMT" name="tearDown" finished-at="2026-10-20T17:15:36 GMT" duration-ms="400" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@279fedbd]" started-at="2026-10-22T18:52:34 GMT" name="tearDown" finished-at="2026-10-22T18:52:35 GMT" duration-ms="466" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginwithInvalidCredentials status=FAILURE method=LoginTest.testLoginwithInvalidCredentials()[pri:0, instance:test.LoginTest@3bd82cf5] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginwithInvalidCredentials status=FAILURE method=LoginTest.testLoginwithInvalidCredentials()[pri:0, instance:test.LoginTest@279fedbd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:37 GMT" name="setUp" finished-at="2026-10-20T17:15:40 GMT" duration-ms="3024" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@279fedbd]" started-at="2026-10-22T18:52:35 GMT" name="setUp" finished-at="2026-10-22T18:52:37 GMT" duration-ms="2545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:40 GMT" name="testValidLogin" data-provider="LoginData" finished-at="2026-10-20T17:15:41 GMT" duration-ms="266" status="FAIL">
+        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@279fedbd]" started-at="2026-10-22T18:52:37 GMT" name="testValidLogin" finished-at="2026-10-22T18:52:37 GMT" duration-ms="309" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user1]]>
+                <![CDATA[Username1]]>
               </value>
             </param>
             <param index="1">
@@ -101,7 +101,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
-at test.LoginTest.testValidLogin(LoginTest.java:54)
+at test.LoginTest.testValidLogin(LoginTest.java:68)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -134,199 +134,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:41 GMT" name="tearDown" finished-at="2026-10-20T17:15:41 GMT" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@279fedbd]" started-at="2026-10-22T18:52:37 GMT" name="tearDown" finished-at="2026-10-22T18:52:38 GMT" duration-ms="368" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=FAILURE method=LoginTest.testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3bd82cf5] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=FAILURE method=LoginTest.testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@279fedbd] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:41 GMT" name="setUp" finished-at="2026-10-20T17:15:45 GMT" duration-ms="4551" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:45 GMT" name="testValidLogin" data-provider="LoginData" finished-at="2026-10-20T17:15:46 GMT" duration-ms="269" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass2]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Logged In Successfully | Practice Test Automation] but found [Test Login | Practice Test Automation]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Logged In Successfully | Practice Test Automation] but found [Test Login | Practice Test Automation]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at test.LoginTest.testValidLogin(LoginTest.java:54)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:46 GMT" name="tearDown" finished-at="2026-10-20T17:15:46 GMT" duration-ms="300" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testValidLogin status=FAILURE method=LoginTest.testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3bd82cf5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:46 GMT" name="setUp" finished-at="2026-10-20T17:15:49 GMT" duration-ms="3381" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:49 GMT" name="testValidLogin" data-provider="LoginData" finished-at="2026-10-20T17:15:50 GMT" duration-ms="280" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[student123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password1234]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Logged In Successfully | Practice Test Automation] but found [Test Login | Practice Test Automation]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Logged In Successfully | Practice Test Automation] but found [Test Login | Practice Test Automation]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at test.LoginTest.testValidLogin(LoginTest.java:54)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:50 GMT" name="tearDown" finished-at="2026-10-20T17:15:50 GMT" duration-ms="310" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testValidLogin status=FAILURE method=LoginTest.testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3bd82cf5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:50 GMT" name="setUp" finished-at="2026-10-20T17:15:54 GMT" duration-ms="3815" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:54 GMT" name="testValidLogin" data-provider="LoginData" finished-at="2026-10-20T17:15:56 GMT" duration-ms="1787" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[student]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Password123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:56 GMT" name="tearDown" finished-at="2026-10-20T17:15:56 GMT" duration-ms="210" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@3bd82cf5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="teardownReport()[pri:0, instance:test.LoginTest@3bd82cf5]" started-at="2026-10-20T17:15:56 GMT" name="teardownReport" finished-at="2026-10-20T17:15:56 GMT" duration-ms="459" status="PASS">
+        <test-method is-config="true" signature="teardownReport()[pri:0, instance:test.LoginTest@279fedbd]" started-at="2026-10-22T18:52:38 GMT" name="teardownReport" finished-at="2026-10-22T18:52:38 GMT" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownReport -->
       </class> <!-- test.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- loginTest -->
+  </suite> <!-- loginSuite -->
 </testng-results>
