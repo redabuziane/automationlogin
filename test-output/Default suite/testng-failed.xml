@@ -9,6 +9,7 @@
           <include name="teardownReport"/>
           <include name="tearDown"/>
           <include name="setupReport"/>
+          <include name="testLoginwithInvalidCredentials"/>
           <include name="testValidLogin"/>
         </methods>
       </class> <!-- test.LoginTest -->

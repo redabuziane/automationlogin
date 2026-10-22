@@ -387,3 +387,17 @@
 2026-10-22 18:52:37 [main] INFO  log - Clicking login button
 2026-10-22 18:52:37 [main] INFO  log - Verfying page title
 2026-10-22 18:52:38 [main] INFO  log - closing Browser
+2026-10-22 19:08:06 [main] INFO  log - Starting WebDriver
+2026-10-22 19:08:08 [main] INFO  log - Navigation to demowebsite
+2026-10-22 19:08:10 [main] INFO  log - Starting login test 
+2026-10-22 19:08:10 [main] INFO  log - Adding credentials
+2026-10-22 19:08:10 [main] INFO  log - Clicking login button
+2026-10-22 19:08:10 [main] INFO  log - Verfying page title
+2026-10-22 19:08:10 [main] INFO  log - closing Browser
+2026-10-22 19:37:21 [main] INFO  log - Starting WebDriver
+2026-10-22 19:37:26 [main] INFO  log - Navigation to demowebsite
+2026-10-22 19:37:32 [main] INFO  log - Starting login test 
+2026-10-22 19:37:32 [main] INFO  log - Adding credentials
+2026-10-22 19:37:32 [main] INFO  log - Clicking login button
+2026-10-22 19:37:32 [main] INFO  log - Verfying page title
+2026-10-22 19:37:33 [main] INFO  log - closing Browser
