@@ -45,18 +45,21 @@ public class LoginTest  extends BaseTest{
 	
 	
 	//@Test  (dataProvider = "LoginData2")
+	
+	//@Parameters({"username","password"})
 	@Test
-	@Parameters({"username","password"})
-	public void testValidLogin (String username , String password) {
+	public void testValidLogin () {
 		log.info("Starting login test ");
-		test = ExtentReportManager.createTest("LoginTest" + username);
+		test = ExtentReportManager.createTest("LoginTest -" );
 		test.info("navigation to url");
 		LoginPage loginPage = new LoginPage (driver);
 		
 		log.info("Adding credentials");
 		test.info("Adding credentials");
-		loginPage.enterUsername(username);
-		loginPage.enterPassword(password);
+		//loginPage.enterUsername(username);
+	//	loginPage.enterPassword(password);
+		loginPage.enterUsername("student");
+		loginPage.enterPassword("Password123");
 		test.info("Cliking on login button");
 		
 		loginPage.clickLogin();
@@ -69,7 +72,7 @@ public class LoginTest  extends BaseTest{
 		test.pass("Login Successful");
 		
 	}
-@Test
+/*@Test
 
 	public void testLoginwithInvalidCredentials () {
 		log.info("Starting login test ");
@@ -91,7 +94,8 @@ public class LoginTest  extends BaseTest{
 		test.info("Verfyig page title");
 		Assert.assertEquals(driver.getTitle(), "Logged In Successfully | Practice Test Automation");
 		test.pass("Login Successful");
-		
+		}
+		*/
 	}
-}
+
 

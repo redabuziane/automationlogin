@@ -13,6 +13,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 
+import utils.Emailutils;
 import utils.ExtentReportManager;
 import utils.log;
 
@@ -21,6 +22,7 @@ public class BaseTest {
 	protected WebDriver driver;
 	protected static ExtentReports extent ;
 	protected ExtentTest test;
+	
 	@BeforeSuite
 	public void setupReport() {
 		extent = ExtentReportManager.getReportInstance();
@@ -30,6 +32,10 @@ public class BaseTest {
 	@AfterSuite
 	public void teardownReport() {
 		extent.flush();
+		String reportPath = ExtentReportManager.reportPath;
+		Emailutils.sendTestReport(reportPath);
+		
+		
 	}
 	
 	
